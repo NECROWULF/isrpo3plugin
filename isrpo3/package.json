@@ -1,0 +1,23 @@
+{
+    "name": "score_for_isrpo_giver",
+    "version": "0.0.1",
+    "displayName": "extention",
+    "publisher": "NECROWULF",
+    "categories": [
+      "Other"
+    ],
+    "icon": "",
+    "activationEvents": [],
+    "contributes": {
+        "commands": [
+            {
+                "command": "calculator.calculator",
+                "title": "Calculator"
+            }
+        ]
+    },
+  "main": "./index.js",
+    "engines": {
+        "vscode": "^1.94.0"    
+    }
+}
